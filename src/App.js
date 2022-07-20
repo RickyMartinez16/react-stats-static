@@ -1,7 +1,16 @@
+import React from "react";
 import "./App.css";
+import Nav from "./Nav";
+import Main from "./Main";
+
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div className="container">
+      <Nav />
+      <Main />
+    </div>
+  )
 }
 
 export default App;
