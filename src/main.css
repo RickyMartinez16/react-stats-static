@@ -1,0 +1,26 @@
+.container{
+    font-family: Inter, sans-serif;
+    background-color: #171718;
+    padding: 57px 27px;
+}
+
+.header{
+    color:#F5F5F5 ;
+    margin-left: 20px;
+    margin: 0;
+    font-size: 39px;
+}
+
+.list{
+    color:#F5F5F5 ;
+}
+
+.list > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
